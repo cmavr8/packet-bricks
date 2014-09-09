@@ -7,7 +7,7 @@ responsibilities may include (i) load-balancing, (ii) duplicating
 and/or (iii) filtering ingress traffic across all registered 
 applications. The distribution is flow-aware (i.e. packets of one 
 connection will always end up in the same application). At the moment,
-pacet-bricks uses netmap packet I/O framework for receiving packets.
+packet-bricks uses netmap packet I/O framework for receiving packets.
 It employs netmap pipes to forward packets to end host applications. 
 
 The following guide provides a walkthrough of the scripts/startup-*.lua
